@@ -1,0 +1,89 @@
+@font-face { font-family: VCR Mono; src: url('VCR\ Mono\ Font.ttf'); } 
+h1 {
+  font-family: VCR Mono;
+  color: white;
+}
+
+h2 {
+  font-family: VCR Mono;
+  color: white;
+}
+
+h3 {
+  font-family: VCR Mono;
+  color: white;
+}
+
+p {
+  font-family: VCR Mono;
+  color: white;
+}
+
+body {
+    background-color: rgb(43, 43, 43);
+  }
+
+  #navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: rgb(43, 43, 43);
+  }
+
+  #navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-family: VCR Mono
+  }
+   
+  #logo { 
+            float: left;
+            max-width: 200px; 
+            position: absolute;
+            top: 10px;
+          }
+
+          .half-page-bg {
+            height: 50vh;
+            background-image:
+url('U.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .other-half {
+            margin-top: 10%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .center {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 30%;
+        }
+
+        img {
+          border-radius: 5%;
+        }
+
+        .centered {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-family: VCR Mono;
+          color: white;
+        }
+
+        .container {
+          position: relative;
+          text-align: center;
+          color: white;
+        }
